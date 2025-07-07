@@ -42,7 +42,7 @@ start_routines() {
   sed -i '$a LidSwitchIgnoreInhibited=no' /etc/systemd/logind.conf
 }
 
-header_info
+# header_info
 echo -e "\nThis script will Perform unLID script.\n"
 while true; do
   read -p "Start the Proxmox unLID Script (y/n)?" yn
